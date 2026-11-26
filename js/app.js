@@ -18,11 +18,232 @@ const FACT_LABEL = {
   grotendeels: "Klopt grotendeels",
   onwaarschijnlijk: "Waarschijnlijk nep",
   gids: "Tip uit gidsen",
+  fout: "Verkeerde locatie",
 };
 
 const STORAGE_KEY = "leonida-logboek-done";
 
 const ITEMS = [
+  {
+    id: "bloodbath-phoenix",
+    title: "Imponte Bloodbath Phoenix",
+    category: "auto",
+    dateLabel: "26 nov 2026",
+    images: [
+      {
+        src: "images/bloodbath-phoenix.jpg",
+        alt: "Zilver-rode Imponte Bloodbath Phoenix met supercharger, volgens de post van mr.nerf onder een metalen afdak bij Slator Towing in Salton.",
+        label: "Post",
+      },
+      {
+        src: "images/map-bloodbath-phoenix.jpg",
+        alt: "Kaart van GTA6GPS met een pin op Slator Towing Inc in Salton, Vice City, bij de Bloodbath Phoenix.",
+        label: "Kaart",
+      },
+    ],
+    summary:
+      "Onder het metalen afdak van Slator Towing Inc in Salton, Vice City, tussen SW 7th Avenue en SW 8th Avenue. De post van mr.nerf klopt.",
+    tips: [
+      "Ga via SW 8th Avenue naar de poort en klim over de lage muur links ervan, waar geen prikkeldraad staat.",
+      "De rood-zwarte Phoenix staat in de open werkplaats, bij de rode motortakel.",
+      "De auto is ontgrendeld, het alarm staat uit en er zit geen tracker in. Daarna kun je hem registreren bij Moses.",
+      "Slator Towing is een illegale operatie met hoge beveiliging: verwacht bewakers en een hond. Trek een vest en een masker aan.",
+      "In het kleine kantoor naast de werkplaats zit ook een kluis.",
+    ],
+    fact: {
+      kind: "bevestigd",
+      note: "De plek klopt. Onder het afdak bij Slator Towing in Salton, tussen SW 7th en SW 8th Ave.",
+    },
+    sources: [
+      {
+        href: "https://gta6gps.com/map/places/imponte-bloodbath-phoenix",
+        label: "GTA6GPS",
+      },
+      {
+        href: "https://getvicekeys.com/guides/gta-6-slator-towing-bloodbath-phoenix",
+        label: "Vice Keys",
+      },
+      {
+        href: "https://timesaver.gg/tools/gta-6/cars/free/bloodbath-phoenix",
+        label: "TimeSaver",
+      },
+    ],
+  },
+  {
+    id: "firebug-dominator",
+    title: "Vapid Firebug Dominator",
+    category: "auto",
+    dateLabel: "26 nov 2026",
+    images: [
+      {
+        src: "images/firebug-dominator.jpg",
+        alt: "Blauwe Vapid Firebug Dominator uit de post van mr.nerf, die hem ten onrechte in Ambrosia plaatst.",
+        label: "Post",
+      },
+      {
+        src: "images/map-firebug-dominator.jpg",
+        alt: "Kaart van GTA6GPS met de echte pin van de Firebug Dominator aan het strand van Port Gellhorn, niet in Ambrosia.",
+        label: "Kaart",
+      },
+    ],
+    summary:
+      "De post van mr.nerf zet deze auto in een vrijstaande garage achter een vervallen huis ten westen van Ambrosia. Die plek klopt niet: daar staat de Classique Emancipator Stallion.",
+    tips: [
+      "De echte Firebug Dominator staat voor het verlaten La Cascara Motel, aan het strand van Gellhorn Avenue in Port Gellhorn (Kelly County).",
+      "Het motel is een operatie van Kolt & Associates met hoge beveiliging en gewapende gangleden.",
+      "De auto is op slot en het alarm gaat af. Er zit geen tracker in. Registreren kost ongeveer $2.950.",
+      "De garage west van Ambrosia, soms Frogswater genoemd, hoort bij de Classique Emancipator Stallion. De code van het toetsenbord is 120113.",
+    ],
+    fact: {
+      kind: "fout",
+      note: "De auto bestaat, maar de plek in de post is verkeerd. Hij staat in Port Gellhorn, niet in Ambrosia.",
+    },
+    sources: [
+      {
+        href: "https://gta6gps.com/map/places/vapid-firebug-dominator",
+        label: "GTA6GPS",
+      },
+      {
+        href: "https://timesaver.gg/tools/gta-6/cars/free/firebug-dominator",
+        label: "TimeSaver",
+      },
+      {
+        href: "https://gamemaps.gg/game/grand-theft-auto-6/guides/standout-vehicle",
+        label: "Game Maps",
+      },
+    ],
+  },
+  {
+    id: "class-act-comet",
+    title: "Pfister Class Act Comet",
+    category: "auto",
+    dateLabel: "26 nov 2026",
+    images: [
+      {
+        src: "images/class-act-comet.jpg",
+        alt: "Donkergroene Pfister Class Act Comet met goudkleurige velgen, volgens de post van mr.nerf op Starfish Island.",
+        label: "Post",
+      },
+      {
+        src: "images/map-class-act-comet.jpg",
+        alt: "Kaart van GTA6GPS met een pin op de zuidwestkant van Starfish Island, bij de Class Act Comet.",
+        label: "Kaart",
+      },
+    ],
+    summary:
+      "In de hoek van de oprit van een villa op de zuidwestkant van Starfish Island, voor twee garagedeuren. De post van mr.nerf klopt over de plek.",
+    tips: [
+      "Je hebt de Key Cloner nodig, die je in hoofdstuk 3 ontgrendelt. Zonder die tool start de auto niet.",
+      "Er staat een alarm op en er zit een geavanceerde tracker in. Scan eerst met WAiNK.",
+      "Na het stelen moet de tracker eraf, of je laat de auto registreren.",
+      "Eén artikel noemt de oostkant van het eiland, maar GTA6GPS, TimeSaver en Game8 zetten hem allemaal in het zuidwesten, net als de post.",
+    ],
+    fact: {
+      kind: "bevestigd",
+      note: "De plek klopt. Let op: je hebt de Key Cloner uit hoofdstuk 3 nodig, en er zit een geavanceerde tracker in.",
+    },
+    sources: [
+      {
+        href: "https://gta6gps.com/map/places/pfister-class-act-comet",
+        label: "GTA6GPS",
+      },
+      {
+        href: "https://timesaver.gg/tools/gta-6/cars/free/class-act-comet",
+        label: "TimeSaver",
+      },
+      {
+        href: "https://game8.co/games/GTA-6/archives/639201",
+        label: "Game8",
+      },
+    ],
+  },
+  {
+    id: "cherry-bomb-chino",
+    title: "Dundreary Cherry Bomb Chino",
+    category: "auto",
+    dateLabel: "26 nov 2026",
+    images: [
+      {
+        src: "images/cherry-bomb-chino.jpg",
+        alt: "Rode Dundreary Cherry Bomb Chino cabriolet met supercharger, volgens de post van mr.nerf bij Saber Shipping Yard in Little Cuba.",
+        label: "Post",
+      },
+      {
+        src: "images/map-cherry-bomb-chino.jpg",
+        alt: "Kaart van GTA6GPS met een pin bij Saber Shipping Yard aan de rivier in Little Cuba, Vice City.",
+        label: "Kaart",
+      },
+    ],
+    summary:
+      "Vlak achter de voorpoort van Saber Shipping Yard, aan Northbrook Drive in Little Cuba, Vice City. De post van mr.nerf klopt volgens de kaartgidsen.",
+    tips: [
+      "Het terrein is een operatie van de Guardia Brothers en is bewaakt. De auto is ontgrendeld, het alarm staat uit en er zit geen tracker in.",
+      "Je kunt over een stuk hek zonder prikkeldraad klimmen, of stiller via de rivier en een open raam aan de achterkant van het noordelijke warehouse.",
+      "GameRant zet de auto tussen de twee warehouses bij de uitgangspoort. GTA6GPS, TimeSaver en andere kaartgidsen houden het op vlak achter de voorpoort, bij de keet.",
+    ],
+    fact: {
+      kind: "bevestigd",
+      note: "De plek klopt volgens GTA6GPS en andere kaartgidsen: vlak achter de voorpoort van Saber Shipping Yard aan Northbrook Drive.",
+    },
+    sources: [
+      {
+        href: "https://gta6gps.com/map/places/dundreary-cherry-bomb-chino",
+        label: "GTA6GPS",
+      },
+      {
+        href: "https://timesaver.gg/tools/gta-6/cars/free/cherry-bomb-chino",
+        label: "TimeSaver",
+      },
+      {
+        href: "https://gamerant.com/gta-6-saber-shipping-yard-key-valuable-locations-safe-code/",
+        label: "GameRant",
+      },
+    ],
+  },
+  {
+    id: "caliente-picador",
+    title: "Declasse Caliente Picador",
+    category: "auto",
+    dateLabel: "26 nov 2026",
+    images: [
+      {
+        src: "images/caliente-picador.jpg",
+        alt: "Blauwe Declasse Caliente Picador met gele streep en supercharger, volgens de post van mr.nerf in een gele container in Breakwater Quarry.",
+        label: "Post",
+      },
+      {
+        src: "images/map-caliente-picador.jpg",
+        alt: "Kaart van GTA6GPS met een pin in de zuidelijke hoek van Breakwater Quarry, North Mariana County.",
+        label: "Kaart",
+      },
+    ],
+    summary:
+      "In een gele container op de bouwplaats in de zuidelijke hoek van Breakwater Quarry, North Mariana County. De post van mr.nerf klopt over de plek.",
+    tips: [
+      "Zoek de rail- en containerwerf aan de zuidkant van de groeve, noordwest van Hamlet. Gebruik de gele bulldozer om de containers weg te schuiven die de gele Scoop-container blokkeren.",
+      "Om de container te openen heb je de Cut-Off-tool nodig, die je in hoofdstuk 3 ontgrendelt. Zonder die tool kom je er niet in.",
+      "De auto is daarna ontgrendeld, zonder alarm of tracker.",
+      "In dezelfde yard staat een Royal Sanchez in een oranje container.",
+    ],
+    fact: {
+      kind: "bevestigd",
+      note: "De plek klopt. Je hebt wel de gele bulldozer en de Cut-Off-tool uit hoofdstuk 3 nodig; dat stond niet in de post.",
+    },
+    sources: [
+      {
+        href: "https://gta6gps.com/map/places/declasse-caliente-picador",
+        label: "GTA6GPS",
+      },
+      {
+        href: "https://getvicekeys.com/guides/gta-6-caliente-picador-container-bulldozer",
+        label: "Vice Keys",
+      },
+      {
+        href: "https://game8.co/games/GTA-6/archives/639408",
+        label: "Game8",
+      },
+    ],
+  },
   {
     id: "skyline-r34",
     title: "Nissan Skyline R34",

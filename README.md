@@ -6,14 +6,9 @@ Dit is **geen officieel Rockstar-product**. Het is alleen voor eigen gebruik. Er
 
 ## Hoe open je het?
 
-GitHub Pages staat expres **niet** aan. Op een privé-repo zou dat een betaald plan nodig hebben, en de site zou (deels) zichtbaar kunnen worden.
+De site staat op GitHub Pages: [leonros85-ui.github.io/leonida-logboek](https://leonros85-ui.github.io/leonida-logboek/). De repo is openbaar; iedereen die de link kent, kan de tips en screenshots zien.
 
-Je kunt de site lokaal openen:
-
-1. Download de map via **Code → Download ZIP**, of clone de repo.
-2. Open `index.html` in je browser (dubbelklikken is genoeg).
-
-Internet is alleen nodig voor de videolinks en bronnen. De pagina zelf, inclusief de screenshots, werkt offline.
+Je kunt de site ook lokaal openen: download de map via **Code → Download ZIP**, of clone de repo, en open `index.html`.
 
 De vinkjes **Gedaan** worden bewaard in je browser (`localStorage`), op dit apparaat.
 
@@ -21,6 +16,11 @@ De vinkjes **Gedaan** worden bewaard in je browser (`localStorage`), op dit appa
 
 | Tip | Categorie | Check |
 | --- | --- | --- |
+| Imponte Bloodbath Phoenix | Auto’s | Bevestigd (Salton, Slator Towing) |
+| Vapid Firebug Dominator | Auto’s | Verkeerde locatie (niet Ambrosia, wel Port Gellhorn) |
+| Pfister Class Act Comet | Auto’s | Bevestigd (Starfish Island, Key Cloner nodig) |
+| Dundreary Cherry Bomb Chino | Auto’s | Bevestigd (Saber Shipping Yard) |
+| Declasse Caliente Picador | Auto’s | Bevestigd (Breakwater Quarry, tool uit hfdst. 3) |
 | Nissan Skyline R34 | Auto’s | Waarschijnlijk nep (met alternatieven) |
 | Safe-code 1886 | Geheime plekken | Bevestigd |
 | Soaring Phoenix | Auto’s | Videogids |

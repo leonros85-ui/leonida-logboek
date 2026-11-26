@@ -10,6 +10,7 @@
   --grotendeels: #ff8a3d;
   --onwaarschijnlijk: #ff2e97;
   --gids: #ffd166;
+  --fout: #ff5a6a;
   font-family: "Segoe UI", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -294,6 +295,7 @@ h1 {
 .fact-label.grotendeels { color: var(--grotendeels); }
 .fact-label.onwaarschijnlijk { color: var(--onwaarschijnlijk); }
 .fact-label.gids { color: var(--gids); }
+.fact-label.fout { color: var(--fout); }
 
 .fact-note,
 .summary,
